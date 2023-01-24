@@ -1,0 +1,443 @@
+.head-section
+	height: 15px
+.head-text
+	display: block
+	font-weight: 400	
+	font-size: 12px
+	text-align: center
+	letter-spacing: 2px
+	text-transform: uppercase
+	color: #1D1F2E
+	&::after
+		content: ''
+		height: 1px
+		width: 30px
+		background: #ECECED
+		position: relative
+		display: inline-block
+		margin-left: 15px
+		margin-bottom: 3px
+	&::before
+		content: ''
+		height: 1px
+		width: 30px
+		background: #ECECED
+		position: relative
+		display: inline-block
+		margin-right: 15px
+		margin-bottom: 3px
+.new-price
+	font-weight: 400
+	font-size: 19px
+	text-align: center
+	color: #A25F4B
+.old-price
+	margin-left: 10px
+	font-weight: 400
+	font-size: 16px
+	text-align: center
+	text-decoration: line-through
+	color: rgba(29, 31, 46, 0.4)
+.new
+	padding-top: 80px
+
+.white
+	color: white
+.navbar
+	height: 80px
+	position: fixed
+	background: white
+.location
+	margin-right: 10px
+.menu
+	height: 80px
+	position: fixed
+	&_logo
+		margin-top: 10px
+		margin-left: 40px
+	&_top
+		margin-top: 30px
+		display: flex
+		justify-content: end
+	&_text
+		list-style: none
+		transition: 1s ease
+		border-bottom: 3px solid white
+		border-radius: 2px
+		padding-right: 3vw
+		&:hover
+			transition: 1s ease
+			border-bottom: 3px solid rgba(162, 95, 75, 0.3)
+		&:last-child
+			border: none
+	&_link
+		text-decoration: none
+		font-weight: 400
+		font-size: 12px
+		letter-spacing: 2px
+		text-transform: uppercase
+		color: #1D1F2E
+	&_basket
+		display: flex
+		transition: 1s ease
+		border-bottom: 3px solid white
+		border-radius: 2px
+		&:hover
+			transition: 1s ease
+			border-bottom: 3px solid rgba(162, 95, 75, 0.3)
+	&_bas
+		height: 20px
+		margin-right: 10px
+	&_counter
+		font-weight: 400
+		font-size: 11px
+		text-align: center
+		color: #FFFFFF
+		padding: 3px 6px
+		background: #1D1F2E
+		border-radius: 9px
+		margin-left: 5px
+.promo
+	height: 530px
+	background-color: #050827
+	margin: 0 30px
+	margin-top: 85px
+	&_background
+		height: 530px
+		background: url('../image/promo_bg.png') center 
+	&_supheader
+		padding-top: 160px
+		font-weight: 400
+		font-size: 12px
+		text-align: center
+		letter-spacing: 2px
+		text-transform: uppercase
+		color: #FFFFFF
+	&_subheader
+		font-weight: 400
+		font-size: 17px
+		line-height: 30px
+		text-align: center
+		color: #FFFFFF
+	&_btn
+		display: block
+		font-weight: 400
+		font-size: 12px
+		text-align: center
+		letter-spacing: 2px
+		text-transform: uppercase
+		color: #1D1F2E
+		padding: 0 24px
+		margin: 0 auto
+		margin-top: 50px
+		transition: 1s ease
+		&:hover
+			transition: 1s ease
+			background: black
+			color: white
+	h1
+		font-weight: 400
+		margin-top: 10px
+		font-size: 47px
+		text-align: center
+		color: #FFFFFF
+
+.story
+	min-height: 480px
+	padding-top: 123px
+	&_header
+		font-weight: 400
+		font-size: 28px
+		text-align: center
+		color: #1D1F2E
+	&_text
+		width: 650px
+		margin: 0 auto
+		margin-top: 15px
+		font-weight: 400
+		font-size: 16px
+		text-align: center
+		color: rgba(29, 31, 46, 0.7)
+	&_read
+		margin-top: 20px
+		text-align: center
+	&_link
+		text-decoration: none
+		font-weight: 400
+		font-size: 15px
+		color: #A25F4B
+		transition: 1s ease
+		border-bottom: 3px solid white
+		border-radius: 2px
+		&:hover
+			transition: 1s ease
+			border-bottom: 3px solid rgba(162, 95, 75, 0.2)
+
+.featured
+	min-height: 850px
+	padding-top: 100px
+	&_box
+		margin-top: 100px
+		display: flex
+		justify-content: space-around
+	&_img
+		display: block
+		margin: 0 auto
+	&_name
+		margin-top: 35px
+		font-weight: 400
+		font-size: 20px
+		text-align: center
+		color: #1D1F2E	
+	&_price
+		font-weight: 400
+		font-size: 16px
+		text-align: center
+		color: rgba(29, 31, 46, 0.7)
+		padding-bottom: 60px
+
+
+.products
+	min-height: 1640px
+	padding-top: 115px
+	&_box
+		margin-top: 100px
+		display: flex
+		justify-content: space-around
+	&_img
+		height: 380px
+		display: block
+		margin: 0 auto
+		transition: 1s ease
+		&:hover
+			transform: scale3d(1.1,1.1,1.1)
+			transition: 1s ease
+	&_name
+		margin-top: 35px
+		font-weight: 400
+		font-size: 20px
+		text-align: center
+		color: #1D1F2E	
+	&_price
+		font-weight: 400
+		font-size: 16px
+		text-align: center
+		color: rgba(29, 31, 46, 0.7)
+		padding-bottom: 60px
+
+.magazin
+	min-height: 290px
+	padding: 130px 0
+	&_box
+		margin-top: 100px
+		display: flex
+		justify-content: space-around
+	&_tovar
+		display: flex
+		align-items: center
+		margin-bottom: 20px
+		min-height: 270px
+	&_info
+		display: flex
+		align-items: start
+		flex-direction: column
+		margin-left: 20px
+	&_supheader
+		font-weight: 400
+		font-size: 12px
+		letter-spacing: 2px
+		text-transform: uppercase
+		color: #1D1F2E
+	&_btn
+		margin-top: 25px
+		font-weight: 400
+		font-size: 12px
+		text-align: center
+		letter-spacing: 2px
+		text-transform: uppercase
+		color: #FFFFFF
+		padding: 9px 25px
+		background: #1D1F2E
+		border-radius: 0px
+		transition: 1s ease
+		&:hover
+			transition: 1s ease
+			background: silver
+			color: black
+	&_header
+		font-weight: 400
+		font-size: 36px
+		color: #1D1F2E
+		margin-top: 15px
+	&_text
+		text-align: start
+		margin-top: 15px
+		font-weight: 400
+		font-size: 16px
+		color: rgba(29, 31, 46, 0.7)
+	&_tovar2
+		display: flex
+		flex-direction: column
+	&_img
+		display: block
+		margin: 0 20px
+	.coffe_img
+		display: block
+		margin: 0 auto
+		margin-top: 20px
+		&:first-child
+			margin-top: 0
+
+
+.second
+	height: 340px
+	background: url('../image/second_bg.png') center (center/cover) no-repeat
+
+.storis
+	padding-top: 100px
+	min-height: 650px
+	&_box
+		display: flex
+		justify-content: space-around
+	&_img
+		display: block
+		margin: 0 auto
+	&_tovar
+		padding-bottom: 20px
+	&_date
+		font-weight: 400
+		font-size: 12px
+		letter-spacing: 2px
+		text-transform: uppercase
+		color: #1D1F2E
+		width: 300px
+		display: block
+		margin: 0 auto
+	&_head
+		display: block
+		margin: 0 auto
+		margin-top: 35px
+		font-weight: 400
+		font-size: 20px
+		text-align: start
+		color: #1D1F2E	
+		width: 300px
+	&_text
+		font-weight: 400
+		font-size: 16px
+		text-align: start
+		color: rgba(29, 31, 46, 0.7)
+		padding-bottom: 15px
+		width: 300px
+		display: block
+		margin: 0 auto
+
+.subscribe
+	background: #1D1F2E
+	margin: 0 30px
+	margin-top: 200px 
+	height: 327px
+	&_header
+		font-style: normal
+		font-weight: 400
+		font-size: 36px
+		text-align: center
+		color: #FFFFFF
+		margin-top: 20px
+	&_form
+		display: flex
+		justify-content: center
+		margin-top: 30px
+input[type=email]
+	background: none
+	border: 1px solid #2F303E
+	border-radius: 0px
+	height: 54px
+	width: 350px
+	margin-right: 10px
+	padding: 18px 40px
+	font-weight: 400
+	font-size: 12px
+	text-align: center
+	letter-spacing: 2px
+	text-transform: uppercase
+	color: #FFFFFF
+input[type=submit]
+	background: #FFFFFF
+	box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1)
+	border-radius: 0px
+	font-weight: 400
+	font-size: 12px
+	text-align: center
+	letter-spacing: 2px
+	text-transform: uppercase
+	color: #000000
+	padding: 18px 25px
+	border: none
+	transition: 1s ease
+	&:hover
+		background: silver
+		transition: 1s ease
+
+.foot
+	min-height: 350px
+	&_box
+		padding-top: 100px
+		display: flex
+		justify-content: center
+	&_column
+		display: block
+		margin: 0 auto
+		padding-bottom: 20px
+	&_logo
+		display: flex
+		justify-content: start
+	&_text
+		margin-top: 22px
+		font-weight: 400
+		font-size: 14px
+		color: rgba(29, 31, 46, 0.7)
+		text-align: start
+	&_company
+		margin-top: 80px
+		font-weight: 400
+		font-size: 14px
+		line-height: 22px
+		color: rgba(29, 31, 46, 0.3)
+	&_menu
+		display: flex
+		flex-direction: column
+		padding-left: 0
+		margin-top: 22px
+	&_menu-bot
+		font-weight: 400
+		font-size: 13px
+		color: rgba(29, 31, 46, 0.7)
+		list-style: none
+		padding-right: 0
+		margin-bottom: 10px
+	&_link
+		text-decoration: none
+		padding-right: 0
+		font-weight: 400
+		font-size: 13px
+		color: rgba(29, 31, 46, 0.7)
+		transition: 1s ease
+		&:hover
+			transition: 1s ease
+			color: red
+	&_header
+		text-align: start
+		font-weight: 400
+		font-size: 12px
+		letter-spacing: 2px
+		text-transform: uppercase
+		color: #1D1F2E
+	&_mail
+		margin-top: 15px
+		font-weight: 400
+		font-size: 23px
+		color: #1D1F2E
+
+
+
